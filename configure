@@ -1,0 +1,12 @@
+#!/bin/sh
+
+set -e
+echo 'rm -rf build'
+rm -rf build
+echo 'mkdir build'
+mkdir build
+echo 'cd build'
+cd build
+echo 'cmake ../libsndfile-1.0.25'
+cmake -DCMAKE_BUILD_TYPE=Release ../libsndfile-1.0.25 "$@"
+echo "Configured successfully, use 'make' to build."

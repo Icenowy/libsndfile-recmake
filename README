@@ -1,0 +1,23 @@
+This is libsndfile 1.0.25, ported to CMake build system
+
+libsndfile is a library of C routines for reading and writing
+files containing sampled audio data.
+
+libsndfile was written by Erik de Castro Lopo (erikd AT mega-nerd DOT com).
+The libsndfile home page is at :
+
+        http://www.mega-nerd.com/libsndfile/
+
+
+Building
+========
+
+        ./configure
+        make
+        make install
+
+Alternatively you can use
+
+        ./configure -DUSE_STATIC_LIBSNDFILE=ON
+
+to build a static library version.
