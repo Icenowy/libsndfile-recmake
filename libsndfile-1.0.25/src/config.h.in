@@ -1,4 +1,6 @@
 /* src/config.h.in.  Generated from configure.ac by autoheader.  */
+/* Modified by StarBrilliant <m13253@hotmail.com>
+               Icenowy Zheng <icenowy@outlook.com> */
 
 /* Set to 1 if the compile is GNU GCC. */
 #define COMPILER_IS_GCC @SNDFILE_CONF_COMPILER_IS_GCC@
